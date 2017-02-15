@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    <!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="author" content="学习交流" />
+
+
+    
+    
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="想你所想">
+<meta property="og:url" content="http://shop.telidh.cn/page/3/index.html">
+<meta property="og:site_name" content="想你所想">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="想你所想">
+
+<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="想你所想" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <style> .article { opacity: 0;} </style>
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>想你所想</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: true,
+        isPost: false,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: true
+    }
+</script>
+
+
+    <script> yiliaConfig.jquery_ui = [false]; </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
+
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/avatar.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">学习交流</a></h1>
+        </hgroup>
+
+        
+
+        
+            <form id="search-form">
+
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>Menu</li>
+                        <li>Tags</li>
+                        
+                        <li>Friends</li>
+                        
+                        
+                        <li>About Me</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">所有文章</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:1299486293@qq.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" href="#" title="GitHub"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Phonics/">Phonics</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/pdf/">pdf</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phonics/">phonics</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/一年级/">一年级</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/下载/">下载</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/作文/">作文</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/儿歌/">儿歌</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/单词/">单词</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/口算/">口算</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/古诗/">古诗</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/名言/">名言</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/四口/">四口</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/四年级/">四年级</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/基本功/">基本功</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/复习/">复习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/奥数/">奥数</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/字母/">字母</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/字词句/">字词句</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/小学/">小学</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/幼儿/">幼儿</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/教案/">教案</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数学/">数学</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/新概念英语/">新概念英语</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/星级考/">星级考</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/沪教版/">沪教版</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/牛津英语/">牛津英语</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/牛津阅读树/">牛津阅读树</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/看图写话/">看图写话</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/第一册/">第一册</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/第二册/">第二册</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/第二学期/">第二学期</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/练习/">练习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/组词/">组词</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/英文/">英文</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/英语/">英语</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/视频/">视频</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/词语/">词语</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/词语训练/">词语训练</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/语文/">语文</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/语法/">语法</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/连词成句/">连词成句</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/默写/">默写</a></li></ul>
+                    </div>
+                </section>
+                
+
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://www.github.com">GitHub</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">no now</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">学习交流</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/avatar.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">学习交流</a></h1>
+            </hgroup>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:1299486293@qq.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="Tags" friends="Friends" about="About Me"/>
+</nav>
+      <div class="body-wrap">
+  
+    <article id="post-新概念英语第二册视频" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/02/14/新概念英语第二册视频/" class="article-date">
+      <time datetime="2017-02-14T02:03:05.000Z" itemprop="datePublished">2017-02-14</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/14/新概念英语第二册视频/">新概念英语第二册视频</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>链接: <a href="https://pan.baidu.com/s/1kVE1y0f" target="_blank" rel="external">https://pan.baidu.com/s/1kVE1y0f</a></p>
+<p>微信订阅号：<img src="http://shop.telidh.cn/img/wechat.jpg" alt="微信订阅号"></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/新概念英语/">新概念英语</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/第二册/">第二册</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/视频/">视频</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-沪教版四年级语文下册全册教案" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/02/13/沪教版四年级语文下册全册教案/" class="article-date">
+      <time datetime="2017-02-13T09:58:08.000Z" itemprop="datePublished">2017-02-13</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/13/沪教版四年级语文下册全册教案/">沪教版四年级语文下册全册教案</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>下载链接：<a href="http://pan.baidu.com/s/1eRZueH0" target="_blank" rel="external">http://pan.baidu.com/s/1eRZueH0</a></p>
+<p>微信订阅号：<img src="http://shop.telidh.cn/img/wechat.jpg" alt="微信订阅号"></p>
+<pre><code>教学目标
+</code></pre><p>、自主识字、积累词语若干个。<br>、能根据提示预习课文；能根据“说写双通道”的建议，组织语言实践活动。<br>、正确朗读4篇课文、一篇古文；背诵课文部分段落；背诵2首古诗；熟记3</p>
+<p>、借助字、词典和注释阅读文言短文《勤读》，并知道“读书百遍，而义自见”</p>
+<p>、感受春天的气息，了解春天的特点，体会积极向上的精神。</p>
+<p>．燕子<br>：<br>自学字词，积累词语，学习准确使用动词。<br>能根据课后提示预习课文，尝试抓住重点句整体感知课文。<br>有感情朗读课文，选择自己喜欢的一节背诵。<br>通过对文中优美词句的理解，感受燕子的可爱和春光的美丽，体会春天给人们</p>
+<p>能根据课后提示预习课文，尝试抓住重点句整体感知课文。<br>理解课文内容，感受燕子的可爱和春光的美丽，激发学生对大自然的热爱之情。<br>能抓住特点，按一定顺序说说自己喜欢的一种小动物。</p>
+<p>．春天悄悄地来到了我们身边,你知道哪些赞美春天的诗句？<br>  生交流：韩愈：早树知春不久归，百般红紫斗芳菲。<br>         孟浩然：春眠不知晓，处处闻啼鸟。<br>         ,,<br>出示句子：</p>
+<p>1）指名朗读句子，说说你的感受。<br>2）理解“黄绿眉眼”：柳枝发芽时颜色发黄，看上去有黄有绿，就像是柳树刚</p>
+<pre><code>理解：光彩夺目  聚拢（找近义词）
+</code></pre><p>3）采用了什么修辞手法？（拟人，写出了春天生机勃勃、光彩夺目。）<br>4）齐读句子<br>这幅艳丽的春意图，有了伶俐可爱的小燕子的加入，更是富有生趣。<br>伶俐可爱的小燕子从南方赶来了，加入这百花争艳的盛会，为春光增添了</p>
+<p>男女生读<br>这段文字，就是著名作家郑振铎笔下的《燕子》。</p>
+<p>轻声读读课文，注意读准字音，不理解的词语借助词典理解意思。<br>1）文中的燕子给你留下了怎样的印象？可以从文中找出词语，也可以用自己</p>
+<p>2）想想课文是从哪几方面描写燕子的？<br>交流反馈：<br>1）出示：俊俏  吹拂 增添 演奏 活泼可爱  光彩夺目  百花争艳  波光粼粼</p>
+<pre><code>泼——拨
+</code></pre><p>   波光粼粼<br>2）文中的燕子给你留下了怎样的印象？（活泼可爱、伶俐可爱、灵巧、轻快、</p>
+<p>3）重点交流：课文是从哪几方面描写燕子的？<br>（板书）外形、飞行、停歇</p>
+<p>。<br>1）轻声读第一节，燕子的外形有什么特点？<br>2）交流、板书：活泼可爱<br>3）“凑”是什么意思？“凑成”能否换成“组成”？<br>“凑”字使文章顿显生动，小燕</p>
+<p>4）小结：燕子外形描写采用了“整体——局部——整体”的顺序。</p>
+<p>．小燕子长得活泼可爱，它们飞行和停歇时的姿态也十分优雅。<br>．自由读课文，先填空，再想想这些词语用得好不好，同桌讨论。</p>
+<p>（   ）着它剪刀似的尾巴，（   ）着身子在天空里（    ）<br>   ）波光粼粼的湖面，剪尾或翼尖偶尔（    ）了一下水面。<br>     ）倦了，（     ）电线上。这多么像正待演奏的曲谱啊！<br>交流第一个填空。<br>1）重点指导：“掠”。“掠”能换成“飞”吗？（掠——轻轻擦过的意思，写出<br>）板书：轻快灵活<br>2）指名朗读第3节，想一想，还有从哪里体现出燕子的轻快灵活？<br>3）感情朗读课文第3节。<br>交流第二个填空。<br>1）重点指导：“落”。指名读第4节，文中的“落”能与后面的“停”交换吗？<br>“落”既展现了燕子动态的美，又写出了燕子的轻快灵活。）<br>2）齐读第4节<br>．理解文中的比喻句：“嫩蓝的填空，几痕细线连于电杆之间，线上停着几个小<br>”<br>1）用了什么修辞手法？（比喻）什么比作什么？(把细线比作五线谱，燕子比<br>)<br>2）燕子正待演奏的将会是什么曲子？<br>．男女生朗读课文3、4节。</p>
+<p>．齐读全文，师总结：这些活泼可爱的小燕子为春光增添了生机，使春天更加</p>
+<p>练习：<br>1）选择自己喜欢的一节课文背诵。<br>2）你喜欢哪一种小动物，抓住他的外形特点，用“整体——局部——整体”</p>
+<pre><code>外形     活泼可爱
+</code></pre><p>．燕子   飞行     轻快灵活   春的使者<br>         停歇</p>
+<pre><code>课文的重点是描写燕子的段落，燕子的外形、飞行和停歇。在整体感知课
+</code></pre><p>帮助学生理清课文再深入地学习。要抓住重点句理解课文，就要抓<br>整堂课的学习，我运用抓句——字词——句的方法，引导学生体会<br>通过这些字词写出了燕子活泼可爱、轻快灵活的特点。如<br>，把燕子写得栩栩如生。“掠”“落”这几个动词更写</p>
+<p>   课文第一节描写了燕子的外形，运用了整体——局部——整体的顺序。课后<br>但大部分学生没有抓住动物的特</p>
+<p>、小溪流的歌</p>
+<p>、有感情朗读课文，理解为什么人们听到小溪流的歌声“就会忘记疲劳和<br>。<br>、继续根据要求预习课文，理解词语“清亮”和“清脆”的不同，能区别</p>
+<p>、通过对文中词句的理解，感受小溪流活泼欢快，积极向前的生活态度。</p>
+<p>理解词语“清亮”和“清脆”的不同，</p>
+<p>。感受小溪流活</p>
+<p>、区别“清亮”“清脆”<br>“清脆”是形容小溪流在山谷里的回声，侧重说明悦耳动听；“清亮”是形<br>。）<br>、引出课题，小溪流究竟唱着怎样的一首歌呢？</p>
+<p>、交流预习情况   </p>
+<p>、说说课文主要讲了什么？<br>小溪流从山谷里奔流而出，一路上他遇到了<strong><strong><strong><strong>___</strong></strong></strong></strong>，他总是<br>，最后他<strong><strong><em>__</em></strong></strong>。<br>、引导学生理清课文脉络。<br>第1——2节   小溪流遇到许多友好的朋友，跟他一起玩，一起前进。<br>3——8节  小溪流遇到阻碍他前进的人，但他继续向前。<br>9节       小溪流终于长大，冲向大海。</p>
+<p>、这是一首怎样的歌？<br>、出示关于描写小溪流向前奔流的句子，让学生填写完整。<br>，（不分日夜）地向前奔流。<br>，一边（玩耍）。</p>
+<p>、读第2、3小节，思考：你觉得小溪流的奔跑有着怎样的特点？<br>、交流：<br>1）第2小节，从“快乐”入手。</p>
+<p>2节，圈出小溪流动作的词语。<br>   板书：活泼欢快<br>“阅读新体验”中的第三小题，思考为什么小树叶和小蝌蚪的行动</p>
+<p>2节。<br>2）第3节，感受小溪流不知疲倦、勇往直前的品质</p>
+<p>2、3句</p>
+<p>4）分角色朗读4——8节  感受的小溪流的不知疲倦、勇往直前、永不停</p>
+<p>5）最后一小节，扣住“不知疲倦”，归纳出小溪流唱的是一首活泼快乐、</p>
+<p>、思考：想想还会遇到哪些事物，代表哪些困难？哪些是积极的好朋友，</p>
+<p>、推荐阅读《小溪流的歌》原文。</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/四年级/">四年级</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教案/">教案</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/沪教版/">沪教版</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/语文/">语文</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+  
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+    </nav>
+  
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i>
+                2017 学习交流
+            </div>
+            <div class="footer-right">
+                <a href="#" target="_blank" title="A fast, simple &amp; powerful blog framework">YYSWS</a>  Theme <a href="#" target="_blank" title="Another simple and elegant theme for Hexo  v3.5">YYSWS</a> by yysws <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" title="Site Visitors"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit"  title="Page Hits"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+
+    </div>
+    
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 5;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="Back to Top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="Comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="Go to Bottom"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+            
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div>
+</body>
+</html>
