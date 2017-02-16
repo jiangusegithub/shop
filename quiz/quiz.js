@@ -2,7 +2,7 @@
     $.fn.jquizzy = function(settings) {
         var defaults = {
             questions: null,
-            startImg: 'images/start.gif',
+            startImg: '../../../../quiz/images/start.gif',
             endText: '已结束!',
             shortURL: null,
             sendResultsURL: null,
@@ -183,7 +183,7 @@
                 resultSet += '</ul></div></div>';
             }
             score = roundReloaded(trueCount / questionLength * 100, 2);
-            
+
             resultSet = '<h2 class="qTitle">' + judgeSkills(score) + '<br/> 您的分数： ' + score + '</h2>' + shareButton + '<div class="jquizzy-clear"></div>' + resultSet + '<div class="jquizzy-clear"></div>';
             superContainer.find('.result-keeper').html(resultSet).show(500);
             superContainer.find('.resultsview-qhover').hide();
