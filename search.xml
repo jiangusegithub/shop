@@ -4,6 +4,215 @@
   
     
     <entry>
+      <title><![CDATA[英语口语测试]]></title>
+      <url>http://shop.telidh.cn/2017/02/17/%E8%8B%B1%E8%AF%AD%E5%8F%A3%E8%AF%AD%E6%B5%8B%E8%AF%95/</url>
+      <content type="html"><![CDATA[
+
+<style type="text/css">
+
+ul {
+ list-style: none;
+}
+#faq {
+ font-size: 12px;
+ width: 800px;
+}
+#faq li {
+ margin: 0 0 10px;
+ padding: 0 0 5px;
+}
+#faq dl {
+ margin: 0;
+ padding:0;
+ display:inline;
+}
+#faq dt {
+ font-weight:bold;
+ cursor:pointer;
+ line-height: 20px;
+ padding: 0 0 5px 22px;
+ border-bottom:1px #ccc dotted;
+ font-size:12pt;
+ color:#333;
+}
+#faq dd {
+	display: none;
+	margin: 0;
+	padding: 5px 0 5px 20px;
+	background: #F0F0F0;
+	line-height: 180%;
+	color: red;
+}
+</style>
+<script type="text/javascript">
+var lastFaqClick=null;
+window.onload=function(){
+  var faq=document.getElementById("faq");
+  var dls=faq.getElementsByTagName("dl");
+  for (var i=0,dl;dl=dls[i];i++){
+    var dt=dl.getElementsByTagName("dt")[0];//取得标题
+     dt.id = "faq_dt_"+(Math.random()*100);
+     dt.onclick=function(){
+       var p=this.parentNode;//取得父节点
+        if (lastFaqClick!=null&&lastFaqClick.id!=this.id){
+          var dds=lastFaqClick.parentNode.getElementsByTagName("dd");
+          for (var i=0,dd;dd=dds[i];i++)
+            dd.style.display='none';
+        }
+        lastFaqClick=this;
+        var dds=p.getElementsByTagName("dd");//取得对应子节点，也就是说明部分
+        var tmpDisplay='none';
+        if (gs(dds[0],'display')=='none')
+          tmpDisplay='block';
+        for (var i=0;i<dds.length;i++)
+          dds[i].style.display=tmpDisplay;
+      }
+  }
+}
+function gs(d,a){
+  if (d.currentStyle){
+    var curVal=d.currentStyle[a]
+  }else{
+    var curVal=document.defaultView.getComputedStyle(d, null)[a]
+  }
+  return curVal;
+}
+</script>
+
+<!--把下面代码加到<body>与</body>之间-->
+<ul id="faq">
+  <li>
+    <dl>
+      <dt>我要走了。再见。</dt>
+      <dd>I have to go. See you later.</dd>
+    </dl>
+  </li>
+   <li>
+    <dl>
+      <dt>嘿，最近怎么样？ 和平时一样。</dt>
+      <dd>Hey,what's up? Nothing much. As usual.</dd>
+    </dl>
+  </li>
+ <li>
+    <dl>
+      <dt>啤酒我来付</dt>
+      <dd>The beer is on me.</dd>
+    </dl>
+  </li>
+  <li>
+     <dl>
+       <dt>你真的要辞职吗？我是说真的。</dt>
+       <dd>Do you really want to quit your job? I mean it.</dd>
+     </dl>
+   </li>
+   <li>
+      <dl>
+        <dt>买单。好的，先生。</dt>
+        <dd>Check,please. Yes,sir.</dd>
+      </dl>
+    </li>
+    <li>
+       <dl>
+         <dt>你在说些什么？别多管闲事。</dt>
+         <dd>What are you talking about? Mind your own business.</dd>
+       </dl>
+     </li>
+     <li>
+        <dl>
+          <dt>我可以留言吗？请稍等。</dt>
+          <dd>May I leave a message please? Hold on.</dd>
+        </dl>
+      </li>
+      <li>
+         <dl>
+           <dt>我是今晚还是明天告诉他？随你的便。</dt>
+           <dd>Shall I tell him tonight or tomorrow? Whatever.</dd>
+         </dl>
+       </li>
+       <li>
+          <dl>
+            <dt>请进。 你先。</dt>
+            <dd>Please come in. After you.</dd>
+          </dl>
+        </li>
+        <li>
+           <dl>
+             <dt>告诉我真相。我不要听胡说八道。我说的是真的。</dt>
+             <dd>Tell me the truth. I don't want nonsense. I am telling the truth.</dd>
+           </dl>
+         </li>
+         <li>
+            <dl>
+              <dt>我们又输了！ 振作点！ 下次你们会做的更好。</dt>
+              <dd>We lost the game again! Cheer up! You will do better next time.</dd>
+            </dl>
+          </li>
+          <li>
+             <dl>
+               <dt>中午我们吃披萨吧。不行，我讨厌披萨。</dt>
+               <dd>Let's have a pizza for lunch. No way. I hate the pizza.</dd>
+             </dl>
+           </li>
+           <li>
+              <dl>
+                <dt>这是很重要的考试。是的，我会加油的。</dt>
+                <dd>It's an important test. Yes，I'll go for it.</dd>
+              </dl>
+            </li>
+            <li>
+               <dl>
+                 <dt>你知道那幢楼的高度吗？我不知道。／你考倒我了。</dt>
+                 <dd>Do you know the height of the building? You've got me there. / It beats me.</dd>
+               </dl>
+             </li>
+             <li>
+                <dl>
+                  <dt>我做不完作业。你能帮我做点吗？谁管你呀！</dt>
+                  <dd>I can't finish my homework.Can you help me to do some? Who cares!</dd>
+                </dl>
+              </li>
+              <li>
+                 <dl>
+                   <dt>电话铃响了。我来接。</dt>
+                   <dd>The phone is ringing. I'll get it.</dd>
+                 </dl>
+               </li>
+               <li>
+                  <dl>
+                    <dt>你什么时候会醒？看情况。</dt>
+                    <dd>When will you wake up? It depends.</dd>
+                  </dl>
+                </li>
+                <li>
+                   <dl>
+                     <dt>我能借你的自行车吗？不可能。</dt>
+                     <dd>Could I borrow your bike? Out of the question.</dd>
+                   </dl>
+                 </li>
+                 <li>
+                    <dl>
+                      <dt>请让我来给你开门。谢谢。</dt>
+                      <dd>Please allow me to open the door for you. Thank you.</dd>
+                    </dl>
+                  </li>
+                  <li>
+                     <dl>
+                       <dt>冷静点。没什么大不了的。你不懂。</dt>
+                       <dd>Calm down. It's not such a big deal. You won't understand.</dd>
+                     </dl>
+                   </li>
+                   
+
+
+</ul>
+
+
+
+
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[五子棋]]></title>
       <url>http://shop.telidh.cn/2017/02/16/%E4%BA%94%E5%AD%90%E6%A3%8B/</url>
       <content type="html"><![CDATA[
