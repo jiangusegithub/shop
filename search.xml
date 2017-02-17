@@ -4,6 +4,576 @@
   
     
     <entry>
+      <title><![CDATA[英语口语测试二]]></title>
+      <url>http://shop.telidh.cn/2017/02/17/%E8%8B%B1%E8%AF%AD%E5%8F%A3%E8%AF%AD%E6%B5%8B%E8%AF%95%E4%BA%8C/</url>
+      <content type="html"><![CDATA[
+
+<style type="text/css">
+
+ul {
+ list-style: none;
+}
+#faq {
+ font-size: 12px;
+ width: 800px;
+}
+#faq li {
+ margin: 0 0 10px;
+ padding: 0 0 5px;
+}
+#faq dl {
+ margin: 0;
+ padding:0;
+ display:inline;
+}
+#faq dt {
+ font-weight:bold;
+ cursor:pointer;
+ line-height: 20px;
+ padding: 0 0 5px 22px;
+ border-bottom:1px #ccc dotted;
+ font-size:12pt;
+ color:#333;
+}
+#faq dd {
+	display: none;
+	margin: 0;
+	padding: 5px 0 5px 20px;
+	background: #F0F0F0;
+	line-height: 180%;
+	color: red;
+}
+</style>
+<script type="text/javascript">
+var lastFaqClick=null;
+window.onload=function(){
+  var faq=document.getElementById("faq");
+  var dls=faq.getElementsByTagName("dl");
+  for (var i=0,dl;dl=dls[i];i++){
+    var dt=dl.getElementsByTagName("dt")[0];//取得标题
+     dt.id = "faq_dt_"+(Math.random()*100);
+     dt.onclick=function(){
+       var p=this.parentNode;//取得父节点
+        if (lastFaqClick!=null&&lastFaqClick.id!=this.id){
+          var dds=lastFaqClick.parentNode.getElementsByTagName("dd");
+          for (var i=0,dd;dd=dds[i];i++)
+            dd.style.display='none';
+        }
+        lastFaqClick=this;
+        var dds=p.getElementsByTagName("dd");//取得对应子节点，也就是说明部分
+        var tmpDisplay='none';
+        if (gs(dds[0],'display')=='none')
+          tmpDisplay='block';
+        for (var i=0;i<dds.length;i++)
+          dds[i].style.display=tmpDisplay;
+      }
+  }
+}
+function gs(d,a){
+  if (d.currentStyle){
+    var curVal=d.currentStyle[a]
+  }else{
+    var curVal=document.defaultView.getComputedStyle(d, null)[a]
+  }
+  return curVal;
+}
+</script>
+
+<!--把下面代码加到<body>与</body>之间-->
+<ul id="faq">
+  <li>
+    <dl>
+      <dt>我要走了。再见。</dt>
+      <dd>I have to go. See you later.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我可以明天借你的车吗？当然，没问题。</dt>
+      <dd>Could I borrow your car tomorrow?B: Sure! No problem.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>老板在会上非常生气。为什么？出了什么问题吗？</dt>
+      <dd>The boss was very angry at the meeting.B: Why? Is there anything wrong?</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你知道警察局在哪里吗？我不知道。</dt>
+      <dd>Do you know where the police station is?B: I don’ t know.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我不是故意撞你的。没关系。</dt>
+      <dd>I didn’t mean to bump into you.B: That’s all right. </dd>
+    </dl>
+  </li>  
+<li>
+    <dl>
+      <dt>真对不起把️你的收音机搞坏了。没关系。</dt>
+      <dd>I am sorry that I broke your radio.B: Never mind. </dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你要黑色的还是红色的领带？你决定吧。</dt>
+      <dd>Do you want the black tie or the red one?B: You decide.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>路上小心。天快黑了。好的。</dt>
+      <dd>Be careful on the road. It‘s getting dark.B:Ok!</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>Sarah 没来。为什么？</dt>
+      <dd>Sarah is not coming.B: Why? </dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>这是你的手机吗？是的，是我的。</dt>
+      <dd>Is this your cell ?B: Yes, it is mine.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我可以借你的车吗？当然可以。</dt>
+      <dd>Could I borrow your car?B: Of course.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我可以用你的电脑吗？当然可以。</dt>
+      <dd>Could I use your computer?B: Sure!</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>晚安，所有人。晚安，jill。做个好梦。</dt>
+      <dd>Good night, everybody.B: Good night, Jill! Have a sweet dream.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>住手／不要吵。我要学习。对不起，我不知道你在学习。</dt>
+      <dd>Knock it off! I am trying to study.B: Sorry, I didn't know that you are studying.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>所有人都迟到了。不会吧。</dt>
+      <dd>Everyone's late.B: Not again!</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>今天到此为止吧。我好累。好吧。</dt>
+      <dd>Let' s call it a day. I am so tired.B: All right!</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我真是受够了。为什么？他做了什么？</dt>
+      <dd>I have had enough!B: Why? What did he do?</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你好吗？不是很好。我着凉了。</dt>
+      <dd>How are you?B: Not very good. I got a cold.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>多保重。你也是。再见。</dt>
+      <dd>Take care!B: You too! Goodbye!</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>谢谢你送的花。不客气。</dt>
+      <dd>Thank you for the flowers.B: You’re welcome.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你很漂亮！谢谢。</dt>
+      <dd>You are beautiful!B: Thank you.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你知道linda的叔叔是jacky chen吗？别开玩笑了，你怎么知道？</dt>
+      <dd>Did you know that Linda's uncle is Jacky Chen?B: You are joking! How did you know that?</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>今天你不能出去。为什么不行？</dt>
+      <dd>You can‘t go out today.B:Why not?</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>Betty 和她新男朋友分手了。我不懂怎么会这样。</dt>
+      <dd>Betty broke up with her new boyfriend.B: I don’t understand how could this happen?</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你必须把这个表格给第一个柜台。然后呢？我要怎么做？</dt>
+      <dd>You should take this form to the first counter.B: And then?What should I do?</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你知道街上新开了一个电影院？是的，那有怎样。</dt>
+      <dd>Do you know there is a new theater down the street?B: Yeah. So what?</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你的牛排怎么样？还好。</dt>
+      <dd>How‘s your steak?B: It’s alright. </dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你伤着了吗？我没事。</dt>
+      <dd>Are you hurt?B: I am OK. </dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>今晚我们去boston。一路顺风。</dt>
+      <dd>We are leaving for Boston tonight.B: Bon voyage. </dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>Lucy 在哭。怎么了，发生了什么事？</dt>
+      <dd>Lucy is crying.B: Why? What happened? </dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我想我考试没过。别装了，这是你第三次提到它了。</dt>
+      <dd>I think I failed my exam.B: Come off it! This is the third time you mention it.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>只要走二十分钟。饶了我吧，我的腿受不了了。</dt>
+      <dd>It's only a twenty-minute walk.B: Give me a break! My legs are killing me.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>够了。我受够你了。听我解释。</dt>
+      <dd>That's enough. I've had enough of you.B: Please let me explain.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>停。你要撞到那棵树了。不要喊了。</dt>
+      <dd>Stop! You are going to bump that tree!B: Stop yelling!</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>别闹了。小baby在睡觉。对不起。</dt>
+      <dd>Cut it out! The baby is sleeping.B:Sorry about that.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你最好跟她道歉。这次你太过分了。她先打我的。</dt>
+      <dd>You better say sorry to her. You are over the line this time.B: She hit me first.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>这是哪里？这里是邮局。</dt>
+      <dd>Where is this?B: This is the post office.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>没想到在这里会见到你。我也是。</dt>
+      <dd>It didn't occur to me that I would see you here.B: Neither did I.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>看那里。我想是着火了。希望没人受伤。</dt>
+      <dd>Look over there! I think there is a fire.B: I hope that nobody is hurt.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>Dad，我可以在我们家开party吗？不行，／绝不可能。</dt>
+      <dd>Dad, can I have a party in our house?B: No way! (Absolutely out of the question!) </dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>振作起来，找点乐趣。别烦我。</dt>
+      <dd>Cheer up and go having some fun.B: Just leave me alone.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>谁啊？是我。请开门。</dt>
+      <dd>A: Who is it?B: It's me. Open the door.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>电影怎么样？太糟了。</dt>
+      <dd>How was the movie?B: It was terrible.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我不想去那个party。来嘛，别害羞。</dt>
+      <dd>I don't want to go to the party. B：Come on! Don't be shy.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你知道我的意思了吗？我知道你的意思了。</dt>
+      <dd>Do you understand me?B: I know what you mean.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>现在我们要走了。嘿，等等我。</dt>
+      <dd>We are going to leave now!B: Hey! Wait for me!</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你可以不要笑了吗？我忍不住。</dt>
+      <dd>Can you stop laughing?B:I can’t help myself.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我不知道怎么去车站。让我告诉你怎么去。</dt>
+      <dd>I don't know how to get to the station.B: Let me tell you the way.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>再见。有空来坐坐。</dt>
+      <dd>Bye! See you next time.B: Remember to drop in sometime.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>哇。今晚真棒。yeah，下次再约出来聚聚。</dt>
+      <dd>Wow! What a night!B: Yeah! Let's get together next time.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>记得继续努力工作。你说的倒容易。</dt>
+      <dd>Remember to keep up your hard work.B: That's easy for you to say.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>对不起，我去下洗手间。请便。</dt>
+      <dd>Excuse me, I want to go to the bathroom.B: Go ahead.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我们从这里跳下去吧。你疯啦。</dt>
+      <dd>Let's jump down from here.B: You’ve got to be out of your mind! (You’re out of your mind!)</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>不用你告诉我。／还用你说。我已经知道了。我只是想提醒你。</dt>
+      <dd>You don't have to tell me. I know already.B: I am just trying to remind you.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我需要你今晚完成。我不敢保证。</dt>
+      <dd>I need you to finish this tonight.B: I can’t promise.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>这里一切都好吗？一切都好。没啥好抱怨的。</dt>
+      <dd>Is everything OK here?B: Everything is fine. I can't complain.／I have nothing to complain about.</dd> </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你的伦敦之旅如何？总而言之太棒了。</dt>
+      <dd>So how was your trip to London?B: It was great in short.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我们无论如何必须完成这些。我想我们无法完成。</dt>
+      <dd>We have to get these done in any case.B: I don‘t think that we can make it.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你敢从墙上跳下来吗？我不敢。</dt>
+      <dd>Do you dare to jump off that wall?B: I dare not.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>幸会。欢迎欢迎。请进。</dt>
+      <dd>Nice to meet you.B: Welcome. Please come in.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>Tony 考试没过。更惨的是他女朋友要和他分手。</dt>
+      <dd>Tony failed the exam.B: What’s even worse is that his girlfriend wants to break up with him.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我要买这手表吗？不，它不值。</dt>
+      <dd>Should I buy this watch?B: No, it's not worth it.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>请坐。王先生马上来。谢谢。</dt>
+      <dd>Please take a seat / be seated, Mr. Wang will be right with you.B: Thank you.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你好吗？我很好／再好也不过了。谢谢。</dt>
+      <dd>How are you?B: I am fine /It couldn't be better, thank you.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>那些书在哪里？它们应该在书架上。</dt>
+      <dd>Where are the books?B: They are supposed to be on the shelf.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>请别再说了。对不起，我不知道我打扰到你了。</dt>
+      <dd>Please don’t say any more.B: I'm sorry! I don’ t know that I am bothering you. </dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我想我们在哪见过。你看起来很面熟。</dt>
+      <dd>I think we have met somewhere.B: You look really familiar.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你要我们等你多久？再等五分钟。</dt>
+      <dd>How long do you want us to wait for you?B: Five more minutes.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>快一点。你上学要迟到了。来了，来了。</dt>
+      <dd>Hurry up! You are going to be late for school.B: Coming, coming.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你要去哪里？我要去银行。</dt>
+      <dd>Where are you going?B: I am off to the bank.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>走开，我想坐这里。你以为你是谁啊。</dt>
+      <dd>Move! I want to sit here.B:Who do you think you are?</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>幸会。幸会。</dt>
+      <dd>Nice to meet you!B: My pleasure.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你介意我在这里抽烟吗？不，我不介意。</dt>
+      <dd>Do you mind if I smoke here?B: No, I don't mind.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>你为什么这么生气？他把水倒我身上。那真的惹毛我了。</dt>
+      <dd>Why are you so mad?B: He poured water on me. That really burns me up!</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我数学考了100分。干得好。</dt>
+      <dd>I got 100 in math!B: Good job!/Great job!/Nice going.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我可以约你出去吗？门都没有。</dt>
+      <dd>Could I ask you out?B: Not in your lifetime!</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>请再重复一遍好吗？我没明白。当然可以，我再说一遍。</dt>
+      <dd>Could you repeat that? I didn't get it.B: Sure! I will say it again.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>这页上的logo贴纸我需要去掉吗？就这样吧，看上去很好。</dt>
+      <dd>Should I take out the logo sticker on this page?B: No, let it be. It looks pretty good.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>我可以进来吗？请进。</dt>
+      <dd>May I come in?B: Please!</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>最近在忙些什么？照旧。</dt>
+      <dd>What are you up to lately?B:The same things.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>恐怕马上要下雨了。带把伞吧。</dt>
+      <dd>I'm afraid it is going to rain soon. Bring an umbrella with you.</dd>
+    </dl>
+  </li>
+    </ul>
+
+
+
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[英语口语测试]]></title>
       <url>http://shop.telidh.cn/2017/02/17/%E8%8B%B1%E8%AF%AD%E5%8F%A3%E8%AF%AD%E6%B5%8B%E8%AF%95/</url>
       <content type="html"><![CDATA[
