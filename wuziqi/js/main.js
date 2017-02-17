@@ -570,13 +570,7 @@ gameData = {
             },
             set: function(e) {
                 o(e),
-                try {
-                   localStorage[this.prefix + t] = e;
-                } catch (e) {
-                  alert("您处于无痕浏览，无法为您跳转");
-                }
-
-
+                localStorage[this.prefix + t] = e
             }
         })
     },
