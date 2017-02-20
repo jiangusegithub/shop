@@ -4,6 +4,285 @@
   
     
     <entry>
+      <title><![CDATA[给孩子的诗]]></title>
+      <url>http://shop.telidh.cn/2017/02/20/%E7%BB%99%E5%AD%A9%E5%AD%90%E7%9A%84%E8%AF%97/</url>
+      <content type="html"><![CDATA[
+
+<style type="text/css">
+
+ul {
+ list-style: none;
+}
+#faq {
+ font-size: 12px;
+ width: 800px;
+}
+#faq li {
+ margin: 0 0 10px;
+ padding: 0 0 5px;
+}
+#faq dl {
+ margin: 0;
+ padding:0;
+ display:inline;
+}
+#faq dt {
+ font-weight:bold;
+ cursor:pointer;
+ line-height: 20px;
+ padding: 0 0 5px 22px;
+ border-bottom:1px #ccc dotted;
+ font-size:12pt;
+ color:#333;
+}
+#faq dd {
+	display: none;
+	margin: 0;
+	padding: 5px 0 5px 20px;
+	background: #F0F0F0;
+	line-height: 180%;
+	color: red;
+}
+</style>
+<script type="text/javascript">
+var lastFaqClick=null;
+window.onload=function(){
+  var faq=document.getElementById("faq");
+  var dls=faq.getElementsByTagName("dl");
+  for (var i=0,dl;dl=dls[i];i++){
+    var dt=dl.getElementsByTagName("dt")[0];//取得标题
+     dt.id = "faq_dt_"+(Math.random()*100);
+     dt.onclick=function(){
+       var p=this.parentNode;//取得父节点
+        if (lastFaqClick!=null&&lastFaqClick.id!=this.id){
+          var dds=lastFaqClick.parentNode.getElementsByTagName("dd");
+          for (var i=0,dd;dd=dds[i];i++)
+            dd.style.display='none';
+        }
+        lastFaqClick=this;
+        var dds=p.getElementsByTagName("dd");//取得对应子节点，也就是说明部分
+        var tmpDisplay='none';
+        if (gs(dds[0],'display')=='none')
+          tmpDisplay='block';
+        for (var i=0;i<dds.length;i++)
+          dds[i].style.display=tmpDisplay;
+      }
+  }
+}
+function gs(d,a){
+  if (d.currentStyle){
+    var curVal=d.currentStyle[a]
+  }else{
+    var curVal=document.defaultView.getComputedStyle(d, null)[a]
+  }
+  return curVal;
+}
+</script>
+
+<!--把下面代码加到<body>与</body>之间-->
+<ul id="faq">
+  <li>
+    <dl>
+      <dt>你不快乐的每一天都不是你的</dt>
+      <dd>
+你不快乐的每一天都不是你的：
+
+你只是虚度了它。
+
+无论你怎么活
+
+只要不快乐，你就没有生活过。
+
+
+
+夕阳倒映在水塘，
+
+假如足以令你愉悦
+
+那么爱情，美酒，或者欢笑
+
+便也无足轻重。
+
+
+
+幸福的人，是他从微小的事物中
+
+汲取到快乐，
+
+每一天都不拒绝 自然的馈赠！
+
+</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>仿佛</dt>
+      <dd>
+      我不记得我的母亲，
+
+只是在游戏中间
+
+有时仿佛有一段歌调在我玩具上回旋，
+
+是她在晃动我的摇篮时所哼的那些歌调。
+
+
+
+我不记得我的母亲，
+
+但是在初秋的早晨
+
+合欢花香在空气中浮动，
+
+庙殿里晨祷的馨香仿佛向我吹来母亲一样的气息。
+
+
+
+我不记得我的母亲，
+
+只是当我从卧室的窗里外望悠远的蓝天，
+
+我仿佛觉得我母亲凝住在我脸上的眼光。
+
+</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>致大自然</dt>
+      <dd>
+      当我还在你的面纱旁游戏，
+
+还像花儿依傍在你身旁，
+
+还倾听你每一声心跳，
+
+它将我温柔颤抖的心环绕，
+
+
+
+当我还像你一样满怀信仰和渴望，
+
+站在你的图像前，
+
+为我的泪寻找一个场所，
+
+为我的爱寻找一个世界；
+
+
+
+当我的心还向着太阳，
+
+以为阳光听得见它的跃动，
+
+它把星星称作兄弟，
+
+把春天当作神的旋律；
+
+
+
+当小树林里气息浮动，
+
+你的灵魂，你欢乐的灵魂，
+
+在寂静的心之波里摇荡，
+
+那时金色的日子将我怀抱。
+
+</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>天真的预示</dt>
+      <dd>一颗沙里看出一个世界，
+
+一朵野花里看出一座天堂，
+
+把无限放在你的手掌上，
+
+永恒在一刹那里收藏。
+
+</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>假如生活欺骗了你</dt>
+      <dd>假如生活欺骗了你，不要悲伤，不要心急！
+
+忧郁的日子里须要镇静：
+
+相信吧，快乐的日子将会来临！
+
+
+
+心儿永远向往着未来；
+
+现在却常是忧郁。
+
+一切都是瞬息，一切都将会过去；
+
+而那过去了的，就会成为亲切的怀恋
+
+</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>积雪</dt>
+      <dd>上层的雪
+　　很冷吧。
+　　冰冷的月光照着它。
+　　下层的雪
+　　很重吧。
+　　上百的人压着它。
+　　中间的雪
+　　很孤单吧。
+　　看不见天也看不见地。
+</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>在风中飘</dt>
+      <dd>一个人要走多少路
+　　别人才能把他称为人？
+　　一只白鸽要飞越多少海
+　　才能在沙滩沉睡？
+　　炮弹要发射多少次才会永远作废
+　　我的朋友，答案就在风中飘
+　　答案就在风中飘
+　　一座山要存在多少年
+　　才能被大海淹没
+　　一些人要生活多少年
+　　才能获得自由？
+　　一个人要转多少次头
+　　还假装什么都看不见
+　　我的朋友
+　　答案就在风中飘，
+　　答案就在风中飘
+　　一个人要仰望多少次，
+　　才能看见天空
+　　一个人要有多少耳朵
+　　才能听到人们的哭声
+　　到底还要死多少人
+　　直到他知道太多的人已死去
+　　我的朋友，
+　　答案就在风中飘，
+　　就在风中飘
+</dd>
+    </dl>
+  </li>
+  </ul>
+
+
+
+  
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[英语口语测试二]]></title>
       <url>http://shop.telidh.cn/2017/02/17/%E8%8B%B1%E8%AF%AD%E5%8F%A3%E8%AF%AD%E6%B5%8B%E8%AF%95%E4%BA%8C/</url>
       <content type="html"><![CDATA[
