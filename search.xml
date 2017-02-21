@@ -87,7 +87,7 @@ ul {
 }
 #faq {
  font-size: 12px;
- width: 800px;
+ width: 500px;
 }
 #faq li {
  margin: 0 0 10px;
@@ -366,7 +366,7 @@ ul {
 }
 #faq {
  font-size: 12px;
- width: 800px;
+ width: 500px;
 }
 #faq li {
  margin: 0 0 10px;
@@ -936,7 +936,7 @@ ul {
 }
 #faq {
  font-size: 12px;
- width: 800px;
+ width: 500px;
 }
 #faq li {
  margin: 0 0 10px;
@@ -1122,7 +1122,7 @@ function gs(d,a){
                        <dd>Calm down. It's not such a big deal. You won't understand.</dd>
                      </dl>
                    </li>
-                   
+
 
 
 </ul>
@@ -1139,7 +1139,7 @@ function gs(d,a){
       <content type="html"><![CDATA[
 
 <div style="width:770px;margin:0 auto">
-<iframe src="../../../../wuziqi/game.html" frameborder="0" scrolling="auto" marginwidth="0" marginheight="0" allowtransparency="true" width="760px" height="500px"></iframe>
+<iframe src="../../../../wuziqi/game.html" frameborder="0" scrolling="auto" marginwidth="0" marginheight="0" allowtransparency="true" width="560px" height="500px"></iframe>
 </div>
 
 
@@ -1153,7 +1153,7 @@ function gs(d,a){
 
 <link rel="stylesheet" type="text/css" href="../../../../quiz/styles.css">
 <style type="text/css">
-.demo{width:760px; margin:60px auto 10px auto}
+.demo{width:560px; margin:60px auto 10px auto}
 
 </style>
 <script type="text/javascript" src="http://libs.useso.com/js/jquery/1.7.2/jquery.min.js"></script>
