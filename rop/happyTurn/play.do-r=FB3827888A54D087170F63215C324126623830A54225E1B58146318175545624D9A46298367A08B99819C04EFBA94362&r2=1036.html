@@ -1,0 +1,88 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport"
+	content="initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, width=device-width">
+<meta name="screen-orientation" content="portrait">
+<meta charset="utf-8">
+<title>情人节翻翻乐</title>
+<script src="../js/adapt.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="css/page.css">
+</head>
+<body>
+	<div id="main" class="container">
+		<div id="gamePanel">
+			<div class="page-title"></div>
+			<div class="level-wrap">
+				当前关卡：<span id="level"></span>
+			</div>
+			<div id="stage">
+				<!--<span>Browser does not support the canvas.</span>-->
+			</div>
+			<div class="time-wrapper" id="time">
+				<div class="time-bar" id="timeBar"></div>
+			</div>
+		</div>
+		<div id="guidePanel">
+			<div class="guideWords">
+				<p>
+					天使的卡牌遗落在了人间<br /> 60s内将这些卡牌成对收集起来！<br /> 教授会赐予你爱与被爱的力量哦~<br />
+					点击屏幕任意位置即可开始游戏
+				</p>
+				<div class="tips">（游戏技巧：眼疾手快~眼疾手快~眼疾手快~）</div>
+			</div>
+		</div>
+
+	</div>
+	<!--******dialogue*******-->
+
+	<div class="dialogue tip-dialogue">
+		<div class="dialogue-title" id='dTitle'></div>
+		<div class="dialogue-words" id="dWords"></div>
+		<div class="flex-box">
+			<div class="btn" id="get">马上领取</div>
+		</div>
+		<div class="flex-box" id="btn">
+			<div class="btn dialogue-btn">
+				<a href="index.do.html">再来一次</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="../js/common.js"></script>
+	<script src="../js/des.js"></script>
+	<script src="js/logic/game.js"></script>
+	<script type="text/javascript">
+	document.ontouchmove=function(e){
+		e.preventDefault();
+	}
+	
+	var r = "FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9B9C0B424AC0A60EB";
+	var r2 = "5718";
+	var rs = "none";
+	var uuid = "366a3514e1d547a4907cadd3c0c0a4f5";
+	$(function(){
+		if(rs == "none"){
+			openModal({
+				dTitle:'很抱歉！',
+				dWord:'<br /><br />你已经没有游戏机会了!<br /><br />'
+			});
+			$("#get").html('<a href="index.do">返回首页</a>');
+			$('#btn').hide();
+		}
+	});
+	
+</script>
+
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script src="../js/share-_=happyTurn.js"></script>
+	<script type="text/javascript">
+				share.register("为了宝宝们下个月的流量，翻翻就有学分拿！", "偷偷攒着留到下个月兑换流量，机智！",
+					"http://mp.weixin.qq.com/s/onufiH21pHLkZa7rrdAZjg",
+					"http://rop.richeninfo.com/rop/happyTurn/img/share.jpg");
+	</script>
+</body>
+</html>

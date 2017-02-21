@@ -1,0 +1,127 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport"
+	content="initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, width=device-width">
+<meta name="screen-orientation" content="portrait">
+<meta charset="utf-8">
+<title>情人节翻翻乐</title>
+<link rel="stylesheet" href="css/page.css">
+<script src="../js/adapt.js" type="text/javascript"></script>
+</head>
+<body>
+	<!--**预加载**-->
+	<div class="loadingLayout">
+		<div id="caseViolette" class="loadingWrap">
+			<div id="cercle">
+				<div id="cercleCache"></div>
+			</div>
+			<div id="point"></div>
+			<div id="load">
+				<p>0％</p>
+			</div>
+		</div>
+	</div>
+	<!--预加载完成-->
+	<div class="container index">
+		<div class="menu">
+			<div class="flex-box">
+				<div id="chance" class="power">
+					我的鲜花：<i class="nopower"></i><i class="nopower"></i><i class="nopower"></i>
+				</div>
+			</div>
+			<div class="flex-box">
+				<div class="gain-btn">
+					<a href="received.do-r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9980FB976D9738B05&amp;r2=6745.html">我的战绩</a>
+				</div>
+			</div>
+			<div class="flex-box">
+
+					<div class="btn left-btn" id="btn">
+						<a href="play.do-r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9980FB976D9738B05&r2=6745.html">马上闯关</a>
+					</div>
+
+
+
+
+
+
+
+						<div class="btn right-btn" id="share">呼唤好友</div>
+
+
+
+			</div>
+			<div class="flex-box">
+				<div class="btn rule-btn">
+					<a href="rule.do-r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9980FB976D9738B05&amp;r2=6745.html">活动规则</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/PxLoader.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/common.js"></script>
+	<script>
+		document.ontouchmove = function(e) {
+			e.preventDefault();
+		}
+
+
+		 $(function(){
+
+				var chance = $("#chance i");
+				$.ajax({
+					type:"post",
+					url:"hasChance.do?"+new Date().getTime(),
+					success:function(data){
+						console.log(data);
+						var thisdata=parseInt(data.chanceNum);
+						console.log(thisdata);
+						if(thisdata == 0){
+							for(var i=0 ; i<thisdata ;i++){
+								chance.eq(i).addClass('haspower').removeClass('nopower');
+							}
+						}else{ //没有机会
+							$("#btn").addClass('forbid-btn').css({"pointer-events":"none"});
+						}
+					}
+				});
+			 });
+
+
+		jQuery(document).ready(function() {
+			if (window.history && window.history.pushState) {
+				$(window).on('popstate', function() {
+					/* 当点击浏览器的 后退和前进按钮 时才会被触发，  */
+					window.history.pushState('forward', null, '');
+					window.history.forward(1);
+				});
+			}
+			window.history.pushState('forward', null, ''); //在IE中必须得有这两行
+			window.history.forward(1);
+		});
+	</script>
+
+
+
+
+			<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+			<script src="../js/share-_=happyTurn.js"></script>
+			<script type="text/javascript">
+				function add() {
+					window.location.href = "index.do";
+				}
+
+				share.register("为了宝宝们下个月的流量，翻翻就有学分拿！", "偷偷攒着留到下个月兑换流量，机智！",
+					"http://rop.richeninfo.com/rop/happyTurn/share.do?uuid=366a3514e1d547a4907cadd3c0c0a4f5",
+					"http://rop.richeninfo.com/rop/happyTurn/img/share.jpg", add);
+			</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,337 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="ltr" lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport"
+	content="initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, width=device-width">
+<meta name="screen-orientation" content="portrait">
+<meta charset="utf-8">
+<title>情人节翻翻乐</title>
+<link rel="stylesheet" href="css/page.css">
+<script src="../js/adapt.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container container-1">
+		<ul class="re-list">
+
+			
+
+				<li class="re-item">
+					<div class="item-1">
+						<p>
+							2月21日
+						</p>
+						<p>6关</p>
+					</div>
+					<div class="item-2 flow">20分</div>
+					<div class="item-3 btn-box">
+
+						
+
+						
+
+						
+							<div class="get-btn already-get">已领取</div>
+						
+
+						
+
+						
+
+					</div>
+				</li>
+
+			
+
+				<li class="re-item">
+					<div class="item-1">
+						<p>
+							2月20日
+						</p>
+						<p>6关</p>
+					</div>
+					<div class="item-2 flow">20分</div>
+					<div class="item-3 btn-box">
+
+						
+
+						
+
+						
+							<div class="get-btn already-get">已领取</div>
+						
+
+						
+
+						
+
+					</div>
+				</li>
+
+			
+
+				<li class="re-item">
+					<div class="item-1">
+						<p>
+							2月19日
+						</p>
+						<p>5关</p>
+					</div>
+					<div class="item-2 flow">20分</div>
+					<div class="item-3 btn-box">
+
+						
+
+						
+
+						
+							<div class="get-btn already-get">已领取</div>
+						
+
+						
+
+						
+
+					</div>
+				</li>
+
+			
+
+				<li class="re-item">
+					<div class="item-1">
+						<p>
+							2月18日
+						</p>
+						<p>5关</p>
+					</div>
+					<div class="item-2 flow">20分</div>
+					<div class="item-3 btn-box">
+
+						
+
+						
+
+						
+							<div class="get-btn already-get">已领取</div>
+						
+
+						
+
+						
+
+					</div>
+				</li>
+
+			
+
+				<li class="re-item">
+					<div class="item-1">
+						<p>
+							2月17日
+						</p>
+						<p>5关</p>
+					</div>
+					<div class="item-2 flow">20分</div>
+					<div class="item-3 btn-box">
+
+						
+
+						
+
+						
+							<div class="get-btn already-get">已领取</div>
+						
+
+						
+
+						
+
+					</div>
+				</li>
+
+			
+
+				<li class="re-item">
+					<div class="item-1">
+						<p>
+							2月16日
+						</p>
+						<p>4关</p>
+					</div>
+					<div class="item-2 flow">10分</div>
+					<div class="item-3 btn-box">
+
+						
+
+						
+
+						
+							<div class="get-btn already-get">已领取</div>
+						
+
+						
+
+						
+
+					</div>
+				</li>
+
+			
+
+				<li class="re-item">
+					<div class="item-1">
+						<p>
+							2月15日
+						</p>
+						<p>5关</p>
+					</div>
+					<div class="item-2 flow">20分</div>
+					<div class="item-3 btn-box">
+
+						
+
+						
+
+						
+							<div class="get-btn already-get">已领取</div>
+						
+
+						
+
+						
+
+					</div>
+				</li>
+
+			
+
+				<li class="re-item">
+					<div class="item-1">
+						<p>
+							2月14日
+						</p>
+						<p>4关</p>
+					</div>
+					<div class="item-2 flow">10分</div>
+					<div class="item-3 btn-box">
+
+						
+
+						
+
+						
+							<div class="get-btn already-get">已领取</div>
+						
+
+						
+
+						
+
+					</div>
+				</li>
+
+			
+
+		</ul>
+	</div>
+	<!--******dialogue*******-->
+	<div class="dialogue tip-dialogue">
+		<div class="dialogue-title" id='dTitle'></div>
+		<div class="dialogue-words" id="dWords"></div>
+		<div class="btn-box">
+			<div class="btn dialogue-btn" id="confirm">确定</div>
+		</div>
+	</div>
+	<script src="../js/common.js"></script>
+	<script type="text/javascript">
+		var myOffSet = true;
+		function exchange(uuid) {
+
+			if (myOffSet) {
+				myOffSet = false;
+				$
+						.post(
+								'creditExchange.do',
+								{
+									"uuid" : uuid
+								},
+								function(res) {
+									if (res === 'y') {
+										openModal({
+											dWord : '您已进入和学分领取排队系统,<br/>您的和学分会尽快发放到<br/>您绑定的手机号码。<br/>领取结果请关注<br/>“我的战绩”页面。'
+										});
+										$('#confirm')
+												.html(
+														'<a href="http://rop.richeninfo.com/rop/credit/selectCredit.do?r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9CD71521741A48B87&r2=7684">确定</a>');
+									} else if (res === "n") {
+										openModal({
+											dTitle : 'sorry,兑换失败~',
+											dWord : '<br/>教授在来的路上堵住了<br/>等等教授可好~~'
+										});
+										$('#confirm')
+												.html(
+														'<a href="received.do?r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9CD71521741A48B87&r2=7684">确定</a>');
+									} else if (res == "fail") {
+										openModal({
+											dTitle : '很抱歉!',
+											dWord : '<br/><br/>你已经领取了该学分！'
+										});
+										$('#confirm')
+												.html(
+														'<a href="received.do?r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9CD71521741A48B87&r2=7684">确定</a>');
+									} else {
+										openModal({
+											dTitle : '很抱歉!',
+											dWord : '<br/><br/>服务忙，请稍后再试!'
+										});
+										$('#confirm')
+												.html(
+														'<a href="received.do?r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9CD71521741A48B87&r2=7684">确定</a>');
+									}
+								})
+						.fail(
+								function(jqXHR, textStatus, errorThrown) {
+									if (jqXHR.status === 401) {
+										openModal({
+											dTitle : '>很抱歉!',
+											dWord : '<br/><br/>链接已经失效，请回到微信重新获取。'
+										});
+										$('#confirm')
+												.html(
+														'<a href="received.do?r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9CD71521741A48B87&r2=7684">确定</a>');
+									} else {
+										openModal({
+											dTitle : '很抱歉!',
+											dWord : '<br/><br/>服务忙，请稍后再试!'
+										});
+										$('#confirm')
+												.html(
+														'<a href="received.do?r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9CD71521741A48B87&r2=7684">确定</a>');
+									}
+								});
+
+			}
+		}
+
+		$('.fail-get').bind('click', function() {
+			openModal({
+				dTitle : '服务器调用异常',
+				dWord : '您的问题已反馈给教授<br/>教授正火速赶往事故现场~~<br/>可在此页面查询最新的和学分兑换状态'
+			});
+		});
+		$('#confirm').click(closeModal);
+	</script>
+
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script src="../js/share-_=happyTurn.js"></script>
+	<script type="text/javascript">
+		share.register("为了宝宝们下个月的流量，翻翻就有学分拿！", "偷偷攒着留到下个月兑换流量，机智！",
+				"http://mp.weixin.qq.com/s/onufiH21pHLkZa7rrdAZjg",
+				"http://rop.richeninfo.com/rop/happyTurn/img/share.jpg");
+	</script>
+</body>
+</html>
