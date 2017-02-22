@@ -34,7 +34,7 @@ body > div: last-child {
 }
 /****鎸夐挳妗�***/
 .flex-box{
-	width: 100%;	
+	width: 100%;
 	display: flex;
 	margin:15px auto;
 }
@@ -43,7 +43,7 @@ body > div: last-child {
 	width: 267px;
 	height:85px;
 	line-height: 85px;
-	border-radius: 10px;		
+	border-radius: 10px;
 	font-size:30px;
 	color: #b6570a;
 	font-weight: bold;
@@ -51,7 +51,7 @@ body > div: last-child {
 	-webkit-box-flex: 1;
 	box-flex: 1;
 	background: url("../img/btn.png") no-repeat 0 0;
-	background-size: 534px 85px;	
+	background-size: 534px 85px;
 }
 .btn a{
 	color: #b6570a;
@@ -80,7 +80,7 @@ body > div: last-child {
 
 .dialogue{
 	width: 530px;
-	height: 485px;	
+	height: 485px;
 	background-size:100% 100%;
 	background-repeat: no-repeat;
 	display: none;
@@ -169,7 +169,7 @@ body > div: last-child {
 	margin: 0px auto;
     -webkit-box-flex: 1;
 	width: 443px;
-	height: 92px;	
+	height: 92px;
 	color: #f75b71;
 	font-size: 28px;
 	line-height: 92px;
@@ -195,7 +195,7 @@ body > div: last-child {
 	width: 242px;
 	height: 70px;
 	font-size: 28px;
-	background: #a31a32;	
+	background: #a31a32;
 	line-height: 70px;
 	border-radius: 50px;
 }
@@ -210,10 +210,10 @@ body > div: last-child {
 
 /*play*/
 .page-title{
-	height: 310px;
+	height: auto;
 	width: 100%;
 	background: url("../img/page-title.png") no-repeat center;
-	background-size: auto 90%; 
+	background-size: auto 90%;
 }
 .stage{
 	border-radius: 10px;
@@ -236,12 +236,12 @@ body > div: last-child {
 	display: block;
 }
 .trunOff{
-			-webkit-animation:trunOff  0.5s 0.8s ;		
-			animation:trunOff 0.5s 0.8s ;			
+			-webkit-animation:trunOff  0.5s 0.8s ;
+			animation:trunOff 0.5s 0.8s ;
 		}
 .trunOn{
-			-webkit-animation:trunOff  0.5s ;		
-			animation:trunOff 0.5s ;			
+			-webkit-animation:trunOff  0.5s ;
+			animation:trunOff 0.5s ;
 		}
 @-webkit-keyframes trunOff{
 	from{
@@ -256,7 +256,7 @@ body > div: last-child {
 
 /*received*/
 .re-list{
-	padding: 40px 60px 40px;	
+	padding: 40px 60px 40px;
 	height: 85%;
 	top:5%;
 	overflow-y: auto;
@@ -342,7 +342,7 @@ body > div: last-child {
 	padding-bottom:30px;
 }
 .rule-title{
-	/*font-size: 26px;*/ 
+	/*font-size: 26px;*/
 	font-weight: bold;
 	padding: 10px  0px;
 }
@@ -358,7 +358,7 @@ body > div: last-child {
 	position: relative;
 	background: url("../img/share-bg.png") no-repeat;
 	background-size: 100% 100%;
-	
+
 }
 /**** Loading Wrap ****/
 .loadingLayout{position:absolute;top:0;bottom:0;left:0;height:100%;width:100%;background:#FBF7C8;z-index:99999}.loadingWrap{position:absolute;left:50%;top:50%;margin:-50px 0 0 -50px}.loadingWrap div{margin:10px}.loadingWrap #load{position:absolute;left:50%;top:36px;width:80px;color:#fff;font:24px calibri;text-align:center}.loadingWrap #cercle{height:100px;width:100px;position:absolute;border-radius:50%;background:linear-gradient(#ffe64f, #fbf7c8);animation:turnCercle 2s infinite;-webkit-animation:turnCercle 5s infinite;animation-timing-function:linear;-webkit-animation-timing-function:linear}.loadingWrap #cercleCache{height:80px;width:80px;position:absolute;border-radius:50%;background-color:#ffe64f;z-index:5}@-webkit-keyframes turnCercle{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(10080deg)}}@keyframes turnCercle{0%{transform:rotate(0deg)}100%{transform:rotate(10080deg)}}.loaders{position:fixed;width:100%;top:0;bottom:0;background-color:#000;opacity:0.8;display:none}.loaders-bg-4{background-color:#000}.loader{position:absolute;left:50%;top:50%;margin:-50px 0 0 -50px;width:100px;height:100px;vertical-align:middle}.loaders-bg-4 p{position:absolute;left:50%;top:50%;margin:-40px 0 0 20px;font-family:'寰蒋闆呴粦';color:#FFF}.loader-bars:before,.loader-bars:after,.loader-bars span{content:'';display:block;position:absolute;left:0;top:0;width:15px;height:45px;background-color:#fff;-webkit-animation:grow 1.5s linear infinite;animation:grow 1.5s linear infinite}.loader-bars:after{left:20px;-webkit-animation:grow 1.5s linear -0.5s infinite;animation:grow 1.5s linear -0.5s infinite}.loader-bars span{left:40px;-webkit-animation:grow 1.5s linear -1s infinite;animation:grow 1.5s linear -1s infinite}@-webkit-keyframes grow{0%{-webkit-transform:scaleY(0);transform:scaleY(0);opacity:0}50%{-webkit-transform:scaleY(1);transform:scaleY(1);opacity:1}100%{-webkit-transform:scaleY(0);transform:scaleY(0);opacity:0}}@keyframes grow{0%{-webkit-transform:scaleY(0);transform:scaleY(0);opacity:0}50%{-webkit-transform:scaleY(1);transform:scaleY(1);opacity:1}100%{-webkit-transform:scaleY(0);transform:scaleY(0);opacity:0}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);tranform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);tranform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);tranform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);tranform:rotate(360deg)}}@-webkit-keyframes spinreverse{0%{-webkit-transform:rotate(0deg);tranform:rotate(0deg)}100%{-webkit-transform:rotate(-360deg);tranform:rotate(-360deg)}}@keyframes spinreverse{0%{-webkit-transform:rotate(0deg);tranform:rotate(0deg)}100%{-webkit-transform:rotate(-360deg);tranform:rotate(-360deg)}}

@@ -9,7 +9,7 @@
 	content="initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, width=device-width">
 <meta name="screen-orientation" content="portrait">
 <meta charset="utf-8">
-<title>情人节翻翻乐</title>
+<title>翻翻乐</title>
 <link rel="stylesheet" href="css/page.css">
 <script src="../js/adapt.js" type="text/javascript"></script>
 </head>
@@ -35,9 +35,7 @@
 				</div>
 			</div>
 			<div class="flex-box">
-				<div class="gain-btn">
-					<a href="received.do-r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9980FB976D9738B05&amp;r2=6745.html">我的战绩</a>
-				</div>
+
 			</div>
 			<div class="flex-box">
 
@@ -57,9 +55,7 @@
 
 			</div>
 			<div class="flex-box">
-				<div class="btn rule-btn">
-					<a href="rule.do-r=FB3827888A54D087170F63215C324126623830A54225E1B58146318175545624D9A46298367A08B9980FB976D9738B05&amp;r2=6745.html">活动规则</a>
-				</div>
+
 			</div>
 		</div>
 	</div>
@@ -74,22 +70,22 @@
 		 $(function(){
 
 				var chance = $("#chance i");
-				$.ajax({
-					type:"post",
-					url:"hasChance.do?"+new Date().getTime(),
-					success:function(data){
-						console.log(data);
-						var thisdata=parseInt(data.chanceNum);
-						console.log(thisdata);
-						if(thisdata == 0){
+			//	$.ajax({
+				//	type:"post",
+				//	url:"hasChance.do?"+new Date().getTime(),
+			//		success:function(data){
+			//			console.log(data);
+						var thisdata=3;
+						//console.log(thisdata);
+						if(thisdata != 0){
 							for(var i=0 ; i<thisdata ;i++){
 								chance.eq(i).addClass('haspower').removeClass('nopower');
 							}
 						}else{ //没有机会
 							$("#btn").addClass('forbid-btn').css({"pointer-events":"none"});
 						}
-					}
-				});
+				//	}
+			//	});
 			 });
 
 
@@ -106,20 +102,6 @@
 		});
 	</script>
 
-
-
-
-			<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-			<script src="../js/share-_=happyTurn.js"></script>
-			<script type="text/javascript">
-				function add() {
-					window.location.href = "index.do";
-				}
-
-				share.register("为了宝宝们下个月的流量，翻翻就有学分拿！", "偷偷攒着留到下个月兑换流量，机智！",
-					"http://rop.richeninfo.com/rop/happyTurn/share.do?uuid=366a3514e1d547a4907cadd3c0c0a4f5",
-					"http://rop.richeninfo.com/rop/happyTurn/img/share.jpg", add);
-			</script>
 
 
 
