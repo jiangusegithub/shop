@@ -33,17 +33,17 @@
 
     //camera access
     if (!Modernizr.getusermedia) {
-      deferred.reject('Your browser doesn\'t support getUserMedia (according to Modernizr).');
+      deferred.reject('Your browser doesn\'t support getUserMedia .');
     }
     //web workers, typed arrays and file API are required by gif.js
     if (!Modernizr.webworkers) {
-      deferred.reject('Your browser doesn\'t support web workers (according to Modernizr).');
+      deferred.reject('Your browser doesn\'t support web workers .');
     }
     if (!Modernizr.filereader) {
-      deferred.reject('Your browser doesn\'t support File API (according to Modernizr).');
+      deferred.reject('Your browser doesn\'t support File API .');
     }
     if (!Modernizr.typedarrays) {
-      deferred.reject('Your browser doesn\'t support typed arrays (according to Modernizr).');
+      deferred.reject('Your browser doesn\'t support typed arrays .');
     }
 
     deferred.resolve();
@@ -280,7 +280,7 @@
         var time = (((Date.now() - startTime) / 1000).toFixed(2));
         var size = ((blob.size / 1000).toFixed(2));
 
-        $('#conversionResult').html('Converted in <strong>' + time + '</strong>sec. Image size is <strong>' + size + '</strong>KB.');
+        $('#conversionResult').html('转化用了 <strong>' + time + '</strong>秒. 图片大小<strong>' + size + '</strong>KB.');
 
         //enable 'send to imgur' button
         $('#upload').removeAttr('disabled');
