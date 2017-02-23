@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>看你有多火</title>
+
+    <meta name="Description" content="看你有多火"/>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+<body class="step1">
+
+<div class="container">
+    <div class="alert alert-danger"><strong>当心!</strong> <span></span></div>
+    <div class="jumbotron">
+        <div id="step1">
+            <h1><i class="glyphicon glyphicon-facetime-video"></i></h1>
+
+            <p class="lead">
+                需要浏览器支持打开摄像头，如chrome，firefox。确保你整个脸都在显示窗中。
+
+            </p>
+
+            <figure class="not-ready">
+                <video  width="240" autoplay></video>
+                <canvas width="240" class="visible"></canvas>
+                <canvas width="240" class="hidden"></canvas>
+            </figure>
+
+            <button class="btn btn-lg btn-success" id="record" disabled>录制</button>
+            <button class="btn btn-lg btn-success" disabled id="convert">保存成GIF图片</button>
+        </div>
+        <div id="step2">
+            <h1></h1>
+
+            <p class="lead">
+                正在转成GIF图片，结束后可以右键点击gif图片另存到本地.
+            </p>
+
+            <figure class="loading">
+                <img>
+            </figure>
+
+            <div class="progress">
+                <div class="progress-bar" id="progressbar"></div>
+            </div>
+
+            <blockquote>
+                <p id="conversionResult"></p>
+            </blockquote>
+
+            <button class="btn btn-lg btn-default start-over">重新开始</button>
+
+        </div>
+        <div id="step3">
+
+        </div>
+    </div>
+
+    <div class="header">
+
+        <h3 class="text-muted"></h3>
+    </div>
+
+    <div class="row marketing">
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+</div>
+<!-- /container -->
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/vendor/modernizr.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/tracking-min.js"></script>
+<script src="js/vendor/data/face-min.js"></script>
+<script src="js/vendor/gif.js"></script>
+<script src="js/vendor/gif.worker.js"></script>
+
+<script src="js/main.js"></script>
+
+<!-- Social -->
+
+</body>
+</html>
